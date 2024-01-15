@@ -1,8 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 #intestazione{
     background-image: url(../img/pattern.png);
     background-color: #4ea0ff;
@@ -22,3 +18,29 @@ h1{
 .title_caption, .date {
     color: #979797;
 }
+span{
+    background-color: yellow;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    
+  }
+  th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    width: 600px;
+    background-color: rgb(165, 201, 255);
+  }
+  td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    width: 600px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: rgb(63, 139, 255);
+    color:#dddddd;
+  }
